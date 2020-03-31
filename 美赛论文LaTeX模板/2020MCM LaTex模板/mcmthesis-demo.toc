@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Problem Restatement}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{1}{section.2}
+\contentsline {section}{\numberline {3}Variables and Notations}{1}{section.3}
+\contentsline {section}{\numberline {4}Model 1}{2}{section.4}
+\contentsline {section}{\numberline {5}Calculating and Simplifying the Model }{2}{section.5}
+\contentsline {section}{\numberline {6}The Model Results}{2}{section.6}
+\contentsline {section}{\numberline {7}Validating the Model}{2}{section.7}
+\contentsline {section}{\numberline {8}Conclusions}{3}{section.8}
+\contentsline {section}{\numberline {9}Strengths and weaknesses}{3}{section.9}
+\contentsline {subsection}{\numberline {9.1}Strengths}{3}{subsection.9.1}
+\contentsline {section}{Appendices}{4}{section*.2}
+\contentsline {section}{Appendix \numberline {A}First appendix}{4}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Second appendix}{4}{Appendix.a.B}

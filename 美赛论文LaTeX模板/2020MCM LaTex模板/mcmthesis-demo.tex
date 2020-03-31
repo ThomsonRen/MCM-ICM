@@ -1,0 +1,200 @@
+
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = false,   % 使用 CTeX 套装时，设置为 true
+        tcn = 2015000, problem = A,
+        sheet = true, titleinsheet = true, keywordsinsheet = true,
+        titlepage = false, abstract = true}
+\usepackage{newtxtext}%\usepackage{palatino}
+\usepackage{lipsum}
+\usepackage{txfonts}
+\usepackage{amsmath}
+
+\title{Your Title is Here.}
+%\author{ }
+%\date{ }
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+
+
+\begin{document}
+\begin{abstract}
+\lipsum[1]
+\begin{keywords}
+keyword1; keyword2
+\end{keywords}
+\end{abstract}
+
+
+\maketitle
+
+\newpage \pagestyle{empty}
+\tableofcontents
+\newpage
+
+\section{Introduction} 
+\pagestyle{fancy} 
+\setcounter{page}{1}
+\subsection{Background}
+\LaTeX\ is a document preparation system which uses the \TeX\
+typesetting program. It enables you to produce
+publication-quality documents with great accuracy and
+consistency. \LaTeX\ works on any computer and produces
+industry-standard PDF. It is available both in free (open-source)
+and commercial implementations. \LaTeX\ can be used for any kind
+of document, but it is especially suited to those with complex
+structures, repetitive formatting, or notations like
+mathematics. Install the software from
+
+.
+\subsection{Problem Restatement}
+\begin{itemize}
+\item the angular velocity of the bat,
+\item the velocity of the ball, and
+\item the position of impact along the bat.
+\end{itemize}
+
+
+\section{Assumptions and Justifications}
+
+\begin{enumerate}[\text{Assumption} 1. ]
+	\item this model is based on blabla...
+
+	\item 
+\end{enumerate}
+
+Next we explain the ....
+\begin{enumerate}[\text{Justification} 1. ]
+	\item 
+	\item 
+\end{enumerate}
+
+
+\section{Variables and Notations}
+
+\begin{table}
+	\centering
+	\begin{tabular}{ccc}
+		\toprule
+		Variables & Description  \\
+		\midrule
+		number & number \\
+		number & number  \\
+		\bottomrule	
+	\end{tabular}
+	\caption{Variables Table}
+    \label{tab:1}       % Give a unique label
+\end{table}
+
+
+
+\begin{Theorem} \label{thm:latex}
+\LaTeX
+\end{Theorem}
+\begin{Lemma} \label{thm:tex}
+\TeX .
+\end{Lemma}
+\begin{proof}
+The proof of theorem.
+\end{proof}
+
+
+
+
+\section{Model 1}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{example-image-a}
+\caption{The name of figure} \label{fig:aa}
+\end{figure}
+
+\lipsum[8] \eqref{aa}
+\begin{equation}
+a^2 \label{aa}
+\end{equation}
+
+
+
+\section{Calculating and Simplifying the Model  }
+\lipsum[11]
+
+\section{The Model Results}
+\lipsum[6]
+
+\section{Validating the Model}
+\lipsum[9]
+
+\section{Conclusions}
+\lipsum[6]
+
+
+\section{Strengths and weaknesses}
+\lipsum[12]
+
+\subsection{Strengths}
+\begin{itemize}
+\item \textbf{Applies widely}\\
+This  system can be used for many types of airplanes, and it also
+solves the interference during  the procedure of the boarding
+airplane,as described above we can get to the  optimization
+boarding time.We also know that all the service is automate.
+\item \textbf{Improve the quality of the airport service}\\
+Balancing the cost of the cost and the benefit, it will bring in
+more convenient  for airport and passengers.It also saves many
+human resources for the airline. \item \textbf{}
+\end{itemize}
+
+\begin{thebibliography}{99}
+\bibitem{1} D.~E. KNUTH   The \TeX{}book  the American
+Mathematical Society and Addison-Wesley
+Publishing Company , 1984-1986.
+\bibitem{2}Lamport, Leslie,  \LaTeX{}: `` A Document Preparation System '',
+Addison-Wesley Publishing Company, 1986.
+\bibitem{3}\url{http://www.latexstudio.net/}
+\bibitem{4}\url{http://www.chinatex.org/}
+\end{thebibliography}
+
+\begin{appendices}
+
+\section{First appendix}
+
+In addition, your report must include a letter to the Chief Financial Officer (CFO) of the Goodgrant Foundation, Mr. Alpha Chiang, that describes the optimal investment strategy, your modeling approach and major results, and a brief discussion of your proposed concept of a return-on-investment (ROI). This letter should be no more than two pages in length.
+
+\begin{letter}{Dear, Mr. Alpha Chiang}
+
+\lipsum[1-2]
+
+\vspace{\parskip}
+
+Sincerely yours,
+
+Your friends
+
+\end{letter}
+Here are simulation programmes we used in our model as follow.\\
+
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
+\lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
+
+\section{Second appendix}
+
+some more text \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Input C++ source:}}
+\lstinputlisting[language=C++]{./code/mcmthesis-sudoku.cpp}
+
+\end{appendices}
+\end{document}
+%%
+%% This work consists of these files mcmthesis.dtx,
+%%                                   figures/ and
+%%                                   code/,
+%% and the derived files             mcmthesis.cls,
+%%                                   mcmthesis-demo.tex,
+%%                                   README,
+%%                                   LICENSE,
+%%                                   mcmthesis.pdf and
+%%                                   mcmthesis-demo.pdf.
+%%
+%% End of file `mcmthesis-demo.tex'.
